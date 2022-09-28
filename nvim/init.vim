@@ -46,6 +46,17 @@ set mouse=a
 set ignorecase
 set smartcase
 
+" Toggle relative number
+function! NumberToggle()
+  if(&relativenumber == 1)
+    set norelativenumber
+  else
+    set relativenumber
+  endif
+endfunc
+
+nnoremap <leader>nt :call NumberToggle()<cr>
+
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'gruvbox-community/gruvbox'
