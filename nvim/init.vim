@@ -55,7 +55,7 @@ function! NumberToggle()
   endif
 endfunc
 
-nnoremap <leader>nt :call NumberToggle()<cr>
+nmap <C-L><C-L> :call NumberToggle()<cr>
 
 call plug#begin('~/.config/nvim/plugged')
 
