@@ -45,3 +45,9 @@ set mouse=a
 " case insensitive search unless capital letters are used
 set ignorecase
 set smartcase
+
+call plug#begin('~/.config/nvim/plugged')
+
+Plug 'gruvbox-community/gruvbox'
+
+call plug#end()
