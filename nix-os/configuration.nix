@@ -90,6 +90,7 @@
     neovim
     google-chrome
     git
+    tmux
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
