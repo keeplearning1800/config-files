@@ -57,8 +57,11 @@ endfunc
 
 nmap <C-L><C-L> :call NumberToggle()<cr>
 
+
 call plug#begin('~/.config/nvim/plugged')
-
 Plug 'gruvbox-community/gruvbox'
-
 call plug#end()
+
+" Use this for dark color schemes
+colorscheme gruvbox
+set background=dark
