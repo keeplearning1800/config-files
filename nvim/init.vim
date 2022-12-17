@@ -9,6 +9,9 @@ set tabstop=4
 set softtabstop=4
 set expandtab
 
+" Copy to system clipboard 
+set clipboard=unamed
+
 " enable autoindents
 set smartindent
 
